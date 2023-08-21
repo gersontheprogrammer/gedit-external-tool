@@ -1,0 +1,10 @@
+#Remember to visit https://netcloudinsights.blogspot.com/2023/07/run-python-java-or-any-other-language.html before adding the external tools.
+
+#Python
+gnome-terminal --tab -e 'sh -c "python3 $GEDIT_CURRENT_DOCUMENT_NAME; exec bash"'
+
+#Java
+gnome-terminal --tab -e 'sh -c "javac $GEDIT_CURRENT_DOCUMENT_NAME && java $GEDIT_CURRENT_DOCUMENT_NAME; exec bash"'
+
+
+
